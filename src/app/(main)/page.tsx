@@ -1,7 +1,6 @@
 import LayoutCMS from '@/components/layout';
-import Content from '@/components/ui/dashboard/Content';
+import Chatbot from '@/components/ui/chatbot/Chat';
 import Header from '@/components/ui/dashboard/Header';
-import Headline from '@/components/ui/dashboard/Headline';
 
 export default function Home() {
   return (
@@ -9,11 +8,8 @@ export default function Home() {
       {/* Header Section */}
       <Header />
 
-      {/* Headline */}
-      <Headline />
-
-      {/* Content Section */}
-      <Content />
+      {/* Content */}
+      <Chatbot />
     </LayoutCMS>
   );
 }
